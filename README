@@ -1,1 +1,12 @@
 sequencereader will ultimately become a command line utility for the purposes of allowing access to the contents of Hadoop sequence files from the command line. The goal is for the program to be fairly self contained within a single file to allow for easy distribution. The original source is forked from another project whose aim was to produce a library. Unfortunately this project seems to not be maintained any longer, through the code still works. I will start with this code and slowly refactor it into sequencereader.py, while updating it to python 3 standards along the way. I hope to use this experience to demystify the format that we call Hadoop Sequence file.
+Pure Python SequenceFile Reader and Writer implementation
+that allows you to read and write your Hadoop sequence files
+without using java.
+
+Author: Matteo Bertozzi <theo.bertozzi@gmail.com>
+
+Contributors: 
+
+  * Brian Bloniarz <brian.bloniarz@gmail.com>
+  * Alex Roper <aroper@umich.edu>
+  * Jeremy G. Kahn <jeremy@trochee.net>
